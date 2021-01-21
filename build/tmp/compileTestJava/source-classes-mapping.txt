@@ -1,0 +1,8 @@
+org/zerock/mreview/MreviewApplicationTests.java
+ org.zerock.mreview.MreviewApplicationTests
+org/zerock/mreview/repository/MovieRepositoryTests.java
+ org.zerock.mreview.repository.MovieRepositoryTests
+org/zerock/mreview/repository/ReviewRepositoryTests.java
+ org.zerock.mreview.repository.ReviewRepositoryTests
+org/zerock/mreview/repository/MemberRepositoryTests.java
+ org.zerock.mreview.repository.MemberRepositoryTests
