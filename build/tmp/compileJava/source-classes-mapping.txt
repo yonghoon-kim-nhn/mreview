@@ -24,7 +24,7 @@ org/zerock/mreview/repository/MemberRepository.java
  org.zerock.mreview.repository.MemberRepository
 org/zerock/mreview/repository/ReviewRepository.java
  org.zerock.mreview.repository.ReviewRepository
-org/zerock/mreview/controller/UploadController.java
- org.zerock.mreview.controller.UploadController
 org/zerock/mreview/controller/UploadTestController.java
  org.zerock.mreview.controller.UploadTestController
+org/zerock/mreview/controller/UploadController.java
+ org.zerock.mreview.controller.UploadController
