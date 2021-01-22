@@ -4,16 +4,29 @@ org/zerock/mreview/controller/MovieController.java
  org.zerock.mreview.controller.MovieController
 org/zerock/mreview/controller/UploadTestController.java
  org.zerock.mreview.controller.UploadTestController
-org/zerock/mreview/controller/UploadController.java
- org.zerock.mreview.controller.UploadController
 org/zerock/mreview/dto/PageRequestDTO.java
  org.zerock.mreview.dto.PageRequestDTO
  org.zerock.mreview.dto.PageRequestDTO$PageRequestDTOBuilder
-org/zerock/mreview/dto/UploadResultDTO.java
- org.zerock.mreview.dto.UploadResultDTO
 org/zerock/mreview/entity/Review.java
  org.zerock.mreview.entity.Review
  org.zerock.mreview.entity.Review$ReviewBuilder
+org/zerock/mreview/controller/ReviewController.java
+ org.zerock.mreview.controller.ReviewController
+org/zerock/mreview/repository/MemberRepository.java
+ org.zerock.mreview.repository.MemberRepository
+org/zerock/mreview/dto/MovieDTO.java
+ org.zerock.mreview.dto.MovieDTO
+ org.zerock.mreview.dto.MovieDTO$MovieDTOBuilder
+org/zerock/mreview/dto/ReviewDTO.java
+ org.zerock.mreview.dto.ReviewDTO
+ org.zerock.mreview.dto.ReviewDTO$ReviewDTOBuilder
+org/zerock/mreview/entity/Movie.java
+ org.zerock.mreview.entity.Movie
+ org.zerock.mreview.entity.Movie$MovieBuilder
+org/zerock/mreview/service/ReviewServiceImpl.java
+ org.zerock.mreview.service.ReviewServiceImpl
+org/zerock/mreview/dto/UploadResultDTO.java
+ org.zerock.mreview.dto.UploadResultDTO
 org/zerock/mreview/entity/MovieImage.java
  org.zerock.mreview.entity.MovieImage
  org.zerock.mreview.entity.MovieImage$MovieImageBuilder
@@ -21,17 +34,14 @@ org/zerock/mreview/repository/ReviewRepository.java
  org.zerock.mreview.repository.ReviewRepository
 org/zerock/mreview/service/MovieService.java
  org.zerock.mreview.service.MovieService
-org/zerock/mreview/repository/MemberRepository.java
- org.zerock.mreview.repository.MemberRepository
+org/zerock/mreview/service/ReviewService.java
+ org.zerock.mreview.service.ReviewService
 org/zerock/mreview/service/MovieServiceImpl.java
  org.zerock.mreview.service.MovieServiceImpl
 org/zerock/mreview/entity/BaseEntity.java
  org.zerock.mreview.entity.BaseEntity
 org/zerock/mreview/dto/PageResultDTO.java
  org.zerock.mreview.dto.PageResultDTO
-org/zerock/mreview/dto/MovieDTO.java
- org.zerock.mreview.dto.MovieDTO
- org.zerock.mreview.dto.MovieDTO$MovieDTOBuilder
 org/zerock/mreview/repository/MovieRepository.java
  org.zerock.mreview.repository.MovieRepository
 org/zerock/mreview/repository/MovieImageRepository.java
@@ -44,6 +54,5 @@ org/zerock/mreview/entity/Member.java
  org.zerock.mreview.entity.Member$MemberBuilder
 org/zerock/mreview/MreviewApplication.java
  org.zerock.mreview.MreviewApplication
-org/zerock/mreview/entity/Movie.java
- org.zerock.mreview.entity.Movie
- org.zerock.mreview.entity.Movie$MovieBuilder
+org/zerock/mreview/controller/UploadController.java
+ org.zerock.mreview.controller.UploadController

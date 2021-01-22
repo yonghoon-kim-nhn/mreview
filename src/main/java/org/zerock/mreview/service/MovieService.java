@@ -43,7 +43,11 @@ public interface MovieService {
                 MovieImage movieImage = MovieImage.builder().path(movieImageDTO.getPath()).imgName(movieImageDTO.getImgName()).uuid(movieImageDTO.getUuid()).movie(movie).build();
                 return movieImage;
             }).collect(Collectors.toList());
+
+            entityMap.put("imgList", movieImageList);
         }
         return entityMap;
     }
+
+    MovieDTO getMovie(Long mno);
 }
