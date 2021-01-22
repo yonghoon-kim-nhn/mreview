@@ -6,6 +6,9 @@ org/zerock/mreview/controller/UploadTestController.java
  org.zerock.mreview.controller.UploadTestController
 org/zerock/mreview/controller/UploadController.java
  org.zerock.mreview.controller.UploadController
+org/zerock/mreview/dto/PageRequestDTO.java
+ org.zerock.mreview.dto.PageRequestDTO
+ org.zerock.mreview.dto.PageRequestDTO$PageRequestDTOBuilder
 org/zerock/mreview/dto/UploadResultDTO.java
  org.zerock.mreview.dto.UploadResultDTO
 org/zerock/mreview/entity/Review.java
@@ -24,6 +27,8 @@ org/zerock/mreview/service/MovieServiceImpl.java
  org.zerock.mreview.service.MovieServiceImpl
 org/zerock/mreview/entity/BaseEntity.java
  org.zerock.mreview.entity.BaseEntity
+org/zerock/mreview/dto/PageResultDTO.java
+ org.zerock.mreview.dto.PageResultDTO
 org/zerock/mreview/dto/MovieDTO.java
  org.zerock.mreview.dto.MovieDTO
  org.zerock.mreview.dto.MovieDTO$MovieDTOBuilder
